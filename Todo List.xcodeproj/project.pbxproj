@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		62DE221B2A01A95900961405 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE221A2A01A95900961405 /* ItemModel.swift */; };
+		62DE221F2A01ADFA00961405 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE221E2A01ADF900961405 /* ListViewModel.swift */; };
 		62E600022A0055400078C5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E600012A0055400078C5D2 /* Assets.xcassets */; };
 		62E600052A0055400078C5D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E600042A0055400078C5D2 /* Preview Assets.xcassets */; };
 		62E6000D2A0056C20078C5D2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6000C2A0056C20078C5D2 /* ListView.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		62DE221A2A01A95900961405 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		62DE221E2A01ADF900961405 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		62E600012A0055400078C5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62E600042A0055400078C5D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62E6000C2A0056C20078C5D2 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		62DE221C2A01AB9B00961405 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				62DE221E2A01ADF900961405 /* ListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -90,8 +93,8 @@
 		62E6FFFC2A00553F0078C5D2 /* Todo List */ = {
 			isa = PBXGroup;
 			children = (
-				62DE221C2A01AB9B00961405 /* ViewModels */,
 				62DE22192A01A93E00961405 /* Models */,
+				62DE221C2A01AB9B00961405 /* ViewModels */,
 				62E6000B2A0056A30078C5D2 /* Views */,
 				62E6FFFD2A00553F0078C5D2 /* Todo_ListApp.swift */,
 				62E600012A0055400078C5D2 /* Assets.xcassets */,
@@ -172,6 +175,7 @@
 			files = (
 				62DE221B2A01A95900961405 /* ItemModel.swift in Sources */,
 				62E600112A005A8D0078C5D2 /* AddView.swift in Sources */,
+				62DE221F2A01ADFA00961405 /* ListViewModel.swift in Sources */,
 				62E6FFFE2A00553F0078C5D2 /* Todo_ListApp.swift in Sources */,
 				62E6000D2A0056C20078C5D2 /* ListView.swift in Sources */,
 				62E6000F2A0058730078C5D2 /* ListRowView.swift in Sources */,
